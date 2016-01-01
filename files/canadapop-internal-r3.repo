@@ -1,0 +1,30 @@
+[canadapop-vm-r3.1-current]
+name = Qubes Canadapop OS Repository for VM (updates)
+baseurl = http://10.0.0.10/pub/qubes/repo/yum/r3.1/current/vm/fc$releasever
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-canadapop-qubes-3-primary
+skip_if_unavailable=False
+gpgcheck = 1
+enabled=0
+
+[canadapop-vm-r3.1-current-testing]
+name = Qubes Canadapop OS Repository for VM (updates-testing)
+baseurl = http://10.0.0.10/pub/qubes/repo/yum/r3.1/current-testing/vm/fc$releasever
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-canadapop-qubes-3-primary
+skip_if_unavailable=False
+gpgcheck = 1
+enabled=0
+
+[canadapop-vm-r3.1-security-testing]
+name = Qubes Canadapop OS Repository for VM (security-testing)
+baseurl = http://10.0.0.10/pub/qubes/repo/yum/r3.1/security-testing/vm/fc$releasever
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-canadapop-qubes-3-primary
+skip_if_unavailable=False
+gpgcheck = 1
+enabled=0
+
+[canadapop-vm-r3.1-unstable]
+name = Qubes Canadapop OS Repository for VM (unstable)
+baseurl = http://10.0.0.10/pub/qubes/repo/yum/r3.1/unstable/vm/fc$releasever
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-canadapop-qubes-3-unstable
+gpgcheck = 1
+enabled=0
